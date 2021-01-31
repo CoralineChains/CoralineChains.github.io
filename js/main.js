@@ -106,6 +106,11 @@ $(document).ready(function(){
 
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const category = urlParams.get('c');
+        console.log(category);
+        $('#'+category).click();
     });      
 
 
@@ -140,3 +145,5 @@ $(document).ready(function(){
 
 
  });
+
+ 
