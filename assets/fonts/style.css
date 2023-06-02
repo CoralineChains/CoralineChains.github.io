@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'asbigan-regular';
+   font-display: swap;
+   src: url('asbigan-regular/font.ttf');
+}
+@font-face {
+   font-family: 'liquefier';
+   font-display: swap;
+   src: url('liquefier/font.ttf');
+}
+@font-face {
+   font-family: 'MagnisaSans-LightExp';
+   font-display: swap;
+   src: url('MagnisaSans-LightExp/font.ttf');
+}
